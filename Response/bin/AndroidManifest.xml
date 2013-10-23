@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.response"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.example.response.Meniu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.response.Instructions"
+            android:label="@string/title_activity_instructions" >
+        </activity>
+        <activity
+            android:name="com.example.response.Instruction"
+            android:label="@string/title_activity_instruction" >
+        </activity>
+        <activity
+            android:name="com.example.response.Game"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="com.example.response.FirstLevel"
+            android:label="@string/title_activity_first_level" >
+        </activity>
+        <activity
+            android:name="com.example.response.Game2"
+            android:label="@string/title_activity_game2" >
+        </activity>
+        <activity
+            android:name="com.example.response.Replay"
+            android:label="@string/title_activity_replay" >
+        </activity>
+    </application>
+
+</manifest>
